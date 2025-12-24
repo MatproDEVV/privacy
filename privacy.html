@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Política de Privacidade | Teteu Store</title>
+
+<style>
+:root {
+  --primary: #ff3b3b;
+  --dark: #111;
+  --light: #f9f9f9;
+  --gray: #555;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(135deg, #111, #222);
+  color: var(--light);
+  line-height: 1.7;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px 20px;
+  animation: fadeIn 1s ease;
+}
+
+.card {
+  background: #1c1c1c;
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0 20px 40px rgba(0,0,0,.4);
+}
+
+h1 {
+  text-align: center;
+  color: var(--primary);
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #ccc;
+  margin-bottom: 40px;
+}
+
+section {
+  margin-bottom: 30px;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: slideUp .8s ease forwards;
+}
+
+section:nth-child(1) { animation-delay: .2s; }
+section:nth-child(2) { animation-delay: .4s; }
+section:nth-child(3) { animation-delay: .6s; }
+section:nth-child(4) { animation-delay: .8s; }
+section:nth-child(5) { animation-delay: 1s; }
+section:nth-child(6) { animation-delay: 1.2s; }
+
+h2 {
+  color: var(--primary);
+  margin-bottom: 10px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+.footer {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #333;
+  text-align: center;
+  color: #aaa;
+  font-size: 14px;
+}
+
+.badge {
+  display: inline-block;
+  background: var(--primary);
+  color: #fff;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+  <div class="card">
+
+    <h1>Política de Privacidade</h1>
+    <p class="subtitle">
+      Transparência, segurança e confiança para nossos clientes
+    </p>
+
+    <section>
+      <h2>1. Sobre a Teteu Store</h2>
+      <p>
+        A <strong>Teteu Store</strong> é uma empresa de compras e vendas,
+        registrada com <strong>CNPJ</strong>, atuando de forma legal e responsável.
+        Nosso objetivo é oferecer uma experiência segura, confiável e transparente
+        para todos os clientes.
+      </p>
+      <span class="badge">Empresa Verificada</span>
+    </section>
+
+    <section>
+      <h2>2. Coleta de Dados</h2>
+      <p>Coletamos apenas informações essenciais para o funcionamento do serviço:</p>
+      <ul>
+        <li>Nome do cliente</li>
+        <li>Número de telefone (WhatsApp)</li>
+        <li>Mensagens relacionadas a compras e atendimento</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>3. Uso das Informações</h2>
+      <p>Os dados são utilizados exclusivamente para:</p>
+      <ul>
+        <li>Atendimento ao cliente</li>
+        <li>Processamento de compras e vendas</li>
+        <li>Atualizações sobre pedidos</li>
+        <li>Comunicação via WhatsApp Business</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>4. Segurança e Confiança</h2>
+      <p>
+        A Teteu Store adota medidas de segurança para proteger os dados dos clientes.
+        Não vendemos, não alugamos e não compartilhamos informações pessoais,
+        exceto quando exigido por lei ou necessário para o funcionamento do serviço.
+      </p>
+    </section>
+
+    <section>
+      <h2>5. Uso do WhatsApp Business</h2>
+      <p>
+        Utilizamos a <strong>API oficial do WhatsApp Business (Meta)</strong>
+        para comunicação com nossos clientes, garantindo conformidade com
+        as políticas da plataforma.
+      </p>
+    </section>
+
+    <section>
+      <h2>6. Direitos do Cliente</h2>
+      <p>
+        O cliente pode solicitar atualização ou exclusão de seus dados a qualquer
+        momento entrando em contato conosco pelo WhatsApp.
+      </p>
+    </section>
+
+    <div class="footer">
+      <p><strong>Teteu Store</strong></p>
+      <p>Última atualização: Janeiro de 2025</p>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
